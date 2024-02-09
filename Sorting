@@ -5,3 +5,31 @@ Ways of sorting :-
 (3)
 
 1. Selection sorting : Find the minimum element in unsorted array and swap it with element at the begining.
+
+//Q1. Take an array from user and sort it in ascending order
+# include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;    //array size input
+    int arr[n];
+    for (int i=0; i<n; i++){   //array input
+        cin>>arr[i];
+    }
+    
+    for (int i=0; i<n-1; i++){
+        for (int j=i+1; j<n; j++){
+            if (arr[j] < arr[i]){           //Ascending order sorting
+                int temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+    
+    for (int i=0; i<n; i++){     //array output
+        cout<<arr[i]<<" ";
+    }
+    return 0;
+}
