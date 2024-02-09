@@ -69,7 +69,7 @@ int main()
 
 2. Bubble sort : Repetedly swap two elemnet if they are in wronh order.
 No of itreation = (n-1)
-// Q1. Take an array from user and arrange it in ascending order using bubble sort.
+// Q3. Take an array from user and arrange it in ascending order using bubble sort.
 #include <iostream>
 using namespace std;
 int main()
@@ -101,7 +101,7 @@ int main()
 
 
 
-// Q2. Take an array from user and arrange it in descending order using bubble sort.
+// Q4. Take an array from user and arrange it in descending order using bubble sort.
 #include <iostream>
 using namespace std;
 int main()
