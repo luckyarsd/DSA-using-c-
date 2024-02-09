@@ -1,0 +1,7 @@
+Sorting : Arranging an array in a logical order either ascending or descending.
+Ways of sorting :-
+(1) Selection sorting
+(2)
+(3)
+
+1. Selection sorting : Find the minimum element in unsorted array and swap it with element at the begining.
