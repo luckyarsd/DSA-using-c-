@@ -2,7 +2,7 @@ Sorting : Arranging an array in a logical order either ascending or descending.
 Ways of sorting :-
 (1) Selection sorting
 (2) Bubble sorting
-(3)
+(3) Insertion sorting
 
 1. Selection sorting : Find the minimum element in unsorted array and swap it with element at the begining.
 
@@ -67,8 +67,9 @@ int main()
 
 
 
-2. Bubble sort : Repetedly swap two elemnet if they are in wronh order.
+2. Bubble sort : Repetedly swap two elemnet if they are in wrong order.
 No of itreation = (n-1)
+
 // Q3. Take an array from user and arrange it in ascending order using bubble sort.
 #include <iostream>
 using namespace std;
@@ -130,3 +131,6 @@ int main()
     return 0;
 }
 
+
+
+3. Insertion sort : 
