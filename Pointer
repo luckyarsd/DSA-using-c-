@@ -10,3 +10,15 @@ int main()
     cout<<a;
     return 0;
 }
+
+
+// Wap to check memory size of different data type
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"Size of integer data type is : "<<sizeof(int)<<endl; 
+    cout<<"Size of char data type is : "<<sizeof(char)<<endl;
+    cout<<"Size of double data type is : "<<sizeof(double)<<endl;
+    return 0;
+}
