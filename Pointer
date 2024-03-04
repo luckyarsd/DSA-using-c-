@@ -1,0 +1,12 @@
+// Wap to change value of a variable using pointer.
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 5; 
+    int *p ;
+    p = &a;
+    *p = 8;
+    cout<<a;
+    return 0;
+}
