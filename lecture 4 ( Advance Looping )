@@ -13,3 +13,22 @@ int main()
 
     return 0;
 }
+
+
+
+// Wap to Print table of any Number
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter a Number to print It's table: ";
+    cin>>n;
+    for(int i=1 ; i<=10 ; i=i+1)
+    {
+        cout<<n<<" * "<<i<<" = "<<n*i<<endl;
+    }
+    return 0;
+}
