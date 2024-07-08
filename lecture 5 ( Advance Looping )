@@ -53,5 +53,23 @@ int main()
 }
 
 
+// Wap to  find Factorial of a number
 
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Enter a number: ";
+    int n,fac=1;
+    cin>>n;
+    
+    for(int i=1 ; i<=n ; i=i+1)
+    {
+        fac=fac*i;
+    }
+    
+    cout<<"Factorial = "<<fac;
+    return 0;
+}
 
