@@ -1,0 +1,42 @@
+// Wap to Declare functions.
+
+# include <iostream>
+using namespace std;
+
+int primeCheck(int n)
+{
+    bool is_prime = true;
+    if(n<2)
+        is_prime = false;
+        
+    for(int i=2 ; i<n/2 ; ++i)
+        if(n%i==0)
+            is_prime = false;
+    
+    if(is_prime)
+        cout<<n<<" is a prime number."<<endl;
+    else
+        cout<<n<<" is not a prime number."<<endl;
+    return 0;
+}
+
+
+int fac(int n)
+{
+    int x=1;
+    if(n<1)
+        return 1;
+        
+    for(int i=1 ; i<=n ; i++)
+        x *= i;
+    cout<<"Factorial = "<<x<<endl;
+    return 0;
+}
+
+
+int main()
+{
+    primeCheck(7);
+    fac(5);
+    return 0;
+}
