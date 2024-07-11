@@ -73,3 +73,41 @@ int main()
     return 0;
 }
 
+
+// Wap to check given number is prime or not.
+
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Enter a number: ";
+    int n;
+    cin>>n;
+    bool is_prime = true;
+    if(n<2)
+    {
+        is_prime = false;
+    }
+    
+    for(int i =2 ; i<n/2 ; ++i)
+    {
+        if(n%i==0)
+        {
+            is_prime = false;
+        }
+    }
+    
+    if(is_prime)
+    {
+        cout<<n<<" is a Prime number.";
+    }
+    else
+    {
+        cout<<n<<" is not a prime number.";
+    }
+    
+
+    return 0;
+    
+}
