@@ -49,6 +49,12 @@ int main()
    // v.erase(v.begin()+2);  //Removing element by index value here 2 is the index value
    
    v.size();  //To know size of vector
+   
+   v.front(); //First element of Vector
+   
+   v.back(); //Last element of vector
+   
+   v.empty(); //To check vector is empty or not.
     
     //Print Vector
     for (int i=0 ; i < v.size() ; i++)
