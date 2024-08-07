@@ -1,0 +1,26 @@
+// WAP to show synatx for vector.
+// Vector is used instead of array due to it's dynamic memory allocation power.
+
+# include <iostream>
+# include <vector>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter size of vector: ";
+    cin>>n;
+    vector <int> v (n);
+    
+    for (int i=0 ; i < n ; i++)
+    {
+        cout<<"Enter "<<i<<" elemnt: ";
+        cin>>v[i];
+    }
+    
+    for (int i=0 ; i < n ; i++)
+    {
+        cout<<v[i]<<" ";
+    }
+    return 0;
+}
